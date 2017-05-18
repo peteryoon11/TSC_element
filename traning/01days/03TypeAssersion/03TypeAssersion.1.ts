@@ -10,7 +10,7 @@ var k:string="hello";
 
 var x:any="hello";
 
-var x2:number=(<string>x).length;
+var x2:number=((<string>x).length);
 // x.length 가 가능 
 
 var x3:number=(x as string).length;
