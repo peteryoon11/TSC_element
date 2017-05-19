@@ -1,16 +1,33 @@
 {
   "name": "gulp_test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "yjisu",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.1.6",
     "typescript": "^2.3.2"
-  }
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "typescript": "^2.3.2"
+  },
+  "description": "test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peteryoon11/gulp_PM_Test.git"
+  },
+  "keywords": [
+    "gulp",
+    "test"
+  ],
+  "bugs": {
+    "url": "https://github.com/peteryoon11/gulp_PM_Test/issues"
+  },
+  "homepage": "https://github.com/peteryoon11/gulp_PM_Test#readme"
 }
