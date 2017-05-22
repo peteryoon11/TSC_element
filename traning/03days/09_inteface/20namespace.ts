@@ -5,6 +5,7 @@ namespace outer
     }
     export class yyy{
         username:string;
+        num:number;
     }
 
 

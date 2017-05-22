@@ -8,9 +8,9 @@ interface IPerson
 }*/
 
 // inline 스타일 
-var IPerson:{
+var IPerson2:{
 
-        firstName:string,
+        firstName?:string,
     lastName:string,
     sayInfo:()=>string
 };
@@ -20,14 +20,14 @@ var IPerson:{
 
 
 // 1. 인터페이스 사용 방법 ==> 변수의 타입으로 지정
-var man:IPerson={
+var man:IPerson2={
 
         firstName:"h",
     lastName:"w",
     sayInfo:()=>"ddd"
 };
 
-var wman:IPerson={
+var wman:IPerson2={
 
       
     lastName:"w",
